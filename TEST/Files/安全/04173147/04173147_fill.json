@@ -1,0 +1,1 @@
+{"fill":[{"num":1,"id":"5","question":"int a,b;a=b=4;请问表达式4/(a+b)的值是多少？","answer":"8","idea":"直接计算啊  数学问题吧"},{"num":2,"id":"6","question":"固态硬盘与机械硬盘相比，价格高、读写速度快、内含碟片的各是哪个？","answer":"固态硬盘","idea":"根据常识"},{"num":3,"id":"12","question":"请问此时a，b，c的值各为多少？","code":"int a=2,b=7;\nint c;\nc=a+++b;","answer":"10","idea":"猜的"}]}

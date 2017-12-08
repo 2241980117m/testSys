@@ -1,0 +1,45 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right,rgba(136, 118, 89, 0.76),rgba(197, 127, 127, 0.92) 50%,#e49999,rgba(136, 118, 89, 0.76));
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+.all {
+    width: 40%;
+    margin: 0 auto;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: -30vh;
+   /*  border: 1px solid red; */
+    box-shadow: 1px 1px 25px 2px #716868;
+    background: rgba(187, 119, 119, 0.61);
+}
+.form {
+    padding-bottom: 4vh;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6vh;
+}
+.all h2{
+	text-align: center;
+	padding-bottom: 1vh;
+}
+#form{
+	width: 80%;
+	margin: 0 auto;
+
+}
+#form input{
+	width: 100%;
+	padding-left: 1vw;
+	
+}
+.submit{
+	position: relative;
+	top: 3vh;
+}

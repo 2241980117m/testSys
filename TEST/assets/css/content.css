@@ -1,0 +1,170 @@
+body{
+    padding-bottom: 2vh;
+}
+ul.option {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 3vw;
+}
+.col-md-9{
+	border-right: 1px solid #eee;
+}
+.page-header img {
+    float: left;
+    margin-top: 3vh;
+    /* line-height: 13vh; */
+    margin-left: 2.2vw;
+    margin-right: 3vw;
+}
+.page-header{
+	margin-top: 10px !important;;
+	overflow: hidden;
+	background: #FF9B22;
+}
+.page-header h2 {
+    float: left;
+    margin-left: 1vw;
+}
+span.hour,span.minute,span.second{
+    font-size: 20px;
+    color: #e48d19;
+}
+.reset{
+	padding-right: 1vw;
+	font-size: 17px;
+}
+.select .num{
+    padding-right: 1vw;
+    font-size: 17px;
+}
+.option li{
+	margin-bottom: 1vh;
+}
+input[type="radio"]{
+	margin-right: 1vw;
+	min-height: 10px;
+}
+span{
+	padding-right: 0.4vw;
+}
+.select{
+	margin-top: 3vh;
+}
+/* .pre {
+    margin-top: 5vh;
+    margin-right: 40vw;
+    width: 13%;
+} */
+/* .next {
+    margin-top: 7vh;
+    width: 13%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 3vw;
+}
+ */
+ .pre {
+    margin-left: 6vw;
+    margin-top: 8vh;
+    display: block !important;
+    width: 13%;
+    float: left;
+}
+ .next,.submit{
+    margin-top: 8vh;
+    width: 13%;
+    float: right;
+    margin-right: 3vw;
+    /* position: relative; */
+    /* bottom: 0; */
+    /* right: 0; */
+/*     left: 38vw; */
+    display: block !important;
+}
+ /* .submit {
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 3vw;
+ } */
+.body_1 .row{
+	margin-left: 0;
+}
+.body_1 .col-md-12{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.body_1 p{
+	text-align: center;
+}
+.wrap{
+	margin-top: 2vh;
+}
+label.title {
+    font-size: 21px;
+    font-weight: 100;
+}
+.sign{
+	text-align: center;
+	width: 1rem;
+    border: 1px solid;
+    margin: 0 auto;
+    height: 1rem;
+    border: 1px solid black;
+}
+input{
+	border: 0;
+    border-bottom: 1px solid;
+    outline: 0;
+}
+.idea {
+    margin-top: 4vh;
+}
+span.please {
+    display: inline-block;
+    width: 11%;
+    padding: 1vh;
+    text-align: right;
+}
+textarea.text {
+    resize: none;
+    width: 85%;
+    height: 14vh;
+}
+/* .pre {
+    margin-left: 4vw;
+    position: absolute;
+    bottom: 0;
+    margin-left: 6vw;
+} */
+.btn{
+	margin-bottom: 0px !important;
+}
+.content {
+    height: 72vh;
+    position: relative;
+}
+/* .submit{
+    position: absolute;
+    bottom: 0;
+} */
+.log {
+    width: 12%;
+    float: left;
+    margin-right: 8%;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+label{
+	display: inline !important;
+}
+ul {
+    list-style: none;
+    margin-top: 2vh;
+}
+li {
+    margin-bottom: 1vh;
+}

@@ -1,0 +1,17 @@
+.col-md-12{
+	margin-top: 20px;
+}
+span.name {
+    display: inline-block;
+    float: left;
+    width: 10%;
+    font-size: 1.2vw;
+}
+.progress{
+	margin-bottom: 0px;
+	float: left;
+	width: 60%;
+}
+.sign{
+	float: right;
+}

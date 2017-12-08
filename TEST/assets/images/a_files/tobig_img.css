@@ -1,0 +1,596 @@
+/*点击瀑布流图片放大以后的公共样式*/
+.img_container_div {
+    position: relative;
+    overflow: hidden;
+}
+.img_container_div:hover .s2_mask {
+    top: 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#d1d1d1;
+}
+.s2_mask {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    -moz-transition: top ease 400ms;
+    -o-transition: top ease 400ms;
+    -webkit-transition: top ease 400ms;
+    transition: top ease 400ms;
+    background: rgba(0,0,0,0.40);
+    cursor: url(http://photo.ssyer.com/lib/toBig4.ico),auto;
+}
+.mask_b {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+.mask_b_div1 {
+    height: 60px;
+    
+    float: left;
+}
+.mask_b_div2 {
+    float: right;
+}
+.mask_b_div1_span1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative; 
+    top: -10px;
+    margin-top: 31px;
+    margin-left: 15px;
+    border: 2px solid #fff;
+}
+.index_page .mask_b_div1_span2 {
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    left: 15px;
+    max-width: 100px;
+    overflow: hidden;
+    display: inline-block;
+   
+}
+.mask_b_div1_span1 img {
+    width: 100%;
+    height: 100%;
+}
+.mask_b_div1_span3 {
+    display: inline-block;
+    position: relative;
+    top: 14px;
+    width: 27px;
+    height: 24px;
+    background: url(http://photo.ssyer.com/lib/download.png) no-repeat;
+    position: relative;
+    right: 40px;
+}
+.mask_b_div1_span4 {
+    display: inline-block;
+    width: 16px;
+    height: 25px;
+    background: url(http://photo.ssyer.com/lib/wtlikeh.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    right: 20px;
+    top: 14px;
+}
+.mask_b_div1_span4.mask_b_div1_span4_1 {
+    display: inline-block;
+    width: 16px;
+    height: 24px;
+    background: url(http://photo.ssyer.com/lib/wtlikehed.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    right: 20px;
+    top: 14px;
+}
+
+
+.mask_b_div1_span5 {
+    position: relative;
+    top: 6px;
+    right: 8px;
+    font-family: "Helvetica Neue Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+    transform: scale(1,0.97);
+    display: inline-block;
+}
+.mask_b span {
+    cursor: pointer;
+}
+#img_big_under_div {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height:100%;
+    z-index: 8888;
+    background-color:#fff;
+    display: none;
+}
+#img_big_above_div {
+    position: fixed;
+    z-index:99999;
+    left: -1px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    /*height:100%;*/
+    height: auto;
+    /*background: green;*/
+    /*display: none;*/
+    overflow:hidden;
+   /*padding-bottom:600px;overflow-y: scroll;*/ 
+}
+.mumberscorll{overflow:auto !important;}
+#largePic{
+	width:100%;
+	background-repeat:no-repeat;
+    background-position:50%;
+    background-size:cover;
+    padding-bottom:800px;
+    position:relative;
+}
+#under_data_statistics {
+    height: 60px;
+    width: 930px;
+    max-width: 960px;
+    position: fixed;
+    bottom:450px;
+    z-index:2;
+    left: 50%;
+    transform:translate(-50%);
+    display:none;
+    background:white;
+}
+.uds_view,.uds_size,.uds_like,.uds_download {
+    height: 60px;
+    /*line-height: 100px;*/
+    display: inline-block;
+    width: 24.5%;
+    overflow: hidden;
+    text-align: center;
+ }
+.uds_p {
+    margin: 10px 0;
+}
+.uds_view_p,.uds_size_p,.uds_like_p,.uds_download_p {
+    display: inline-block;
+    margin-top: 25px;
+    font-family: "Helvetica Neue Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Verdana; */
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #333;
+    transform: scale(1,0.97);
+}
+#big_img {
+    width: 100%;
+}
+.ibad_top {
+    position: fixed;
+    top: 0;
+    left: 80px;
+    color: #eee;
+    font-size: 14px;
+    margin-top: 22px;
+    z-index:5;
+}
+.ibad_top_headImg {
+    width: 44px;
+    height: 44px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    position:relative;
+    left:0;
+    top:0;
+}
+.ibad_top .segmentation{
+	width:1px;
+	height:48px;
+	background:#fff;
+	margin-left:30px;
+	display:none;
+	position:relative;
+	left:0;
+	top:0;
+}
+.ibad_top .exceptional{
+	width:52px;
+	height:28px;
+	font:600 14px/30px "";
+	text-align:center;
+	line-height:22px;
+	color:#fff;
+	border:3px solid #fff;
+	display:none;
+	position:relative;
+	left:16px;
+	top:-16px;
+	cursor:pointer;
+}
+/*@media only screen and (max-width:1600px ){
+	.ibad_top .exceptional{
+		width:46px;
+		height:30px;
+		font:600 14px/30px "";
+		text-align:center;
+		line-height:26px;
+		color:#fff;
+		border:3px solid #fff;
+		display:none;
+		position:absolute;
+		left:33vh;
+		top:12px;
+		cursor:pointer;
+	}
+}*/	
+.ibad_top .exceptional:hover{
+	background:#fff;
+	color:#000;
+}
+#ibad_top_headImg_img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+#ibad_top_right {
+    display: inline-block;
+    position: fixed;
+    right: 130px;
+    top: 34px;
+}
+.ibad_top_photor {
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    top: 0;
+    cursor: pointer;
+}
+.ibad_top_photor p{
+    /*color: #fff;*/
+    font-size: 14px;
+    width:auto;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.ibad_top_info {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(http://photo.ssyer.com/lib/static.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.ibad_top_reward {
+    display: inline-block;
+    width: 39px;
+    height: 26px;
+    background: url(http://photo.ssyer.com/lib/pay.png) no-repeat;
+    background-size: 100% 100%;
+    margin-left: 25px;
+    cursor: pointer;   
+}
+.ibad_top_reward:hover{
+	background: url(http://photo.ssyer.com/lib/pay1.png) no-repeat;
+}
+.ibad_top_like1 {
+    height: 25px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 15px;
+    position: relative;
+    top: -5px;
+    left: 25px;
+    cursor: pointer;
+}
+
+.ibad_top_like2 {
+    height: 25px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 15px;
+    position: relative;
+    top: -5px;
+    left: 25px;
+    cursor: pointer;
+}
+
+.ibad_top_download {
+    display: inline-block;
+    width:27px;
+    height:24px;
+    background: url(http://img.ssyer.com/lib/download.png) no-repeat;
+    padding: 2px 10px;
+    position: relative;
+    top: 2px;
+    left: 48px;
+    cursor: pointer;
+}
+.like_icon_span {
+    width: 28px;
+    height: 24px;
+    display: inline-block;
+    background: url(http://img.ssyer.com/lib/unlike.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 6px;
+    left: 3px;
+}
+#like_count {
+    position: relative;
+    top: -1px;
+    left: 5px;
+}
+#img_big_middle_div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.ovfHiden {
+    overflow: hidden;
+    height: 100%;
+}
+.delete_img_icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    background: url(http://photo.ssyer.com/lib/delete.png);
+    cursor: pointer;
+}
+
+.authorCode{
+	width:600px;
+	height:358px;
+	background:#ffffff;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.40);
+    border-radius:6px;
+    position:fixed;
+    left:0;
+    top:-358px;
+    right:0;
+    margin:auto;
+    z-index:100000;
+}
+
+.authorCode h5{
+	width:85px;
+	height:20px;
+	font-family:PingFangSC-Light;
+	font-size:20px;
+	color:#999999;
+	letter-spacing:0;
+	line-height:20px;
+	text-align:center;
+	margin:15px auto;
+}
+.authorCode .delete{
+	background:url(http://photo.ssyer.com/lib/delete1.png) no-repeat center center;
+	background-size:100% 100%;
+	border-radius:6px;
+	width:20px;
+	height:20px;
+	display:inline-block;
+	position:absolute;
+	right:10px;
+	top:10px;
+	cursor:pointer;
+}
+.authorCode .author{
+	width:100%;
+	height:52px;
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.authorCode .author .authorHead{
+	width:52px;
+	height:52px;
+	border-radius:50%;
+	background:#666;
+	margin-right:16px;
+}
+.authorCode .author .authorNickname{
+	font-family:PingFangSC-Regular;
+	font-size:20px;
+	color:#000000;
+	letter-spacing:0;
+	line-height:52px;
+	text-align:left;
+}
+.authorCode .pay{
+	margin-top:20px;
+	width:100%;
+	height:189px;
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+}
+.authorCode .pay p{
+	margin-bottom:5px;
+}
+.authorCode .pay .alipay p{
+	font-family:PingFangSC-Regular;
+	font-size:14px;
+	color:#62b8f7;
+	letter-spacing:0;
+	line-height:14px;
+	text-align:left;
+}
+.authorCode .pay .wxpay p{
+    padding-left:122px;
+    font-family:PingFangSC-Regular;
+	font-size:14px;
+	color:#7ec65e;
+	letter-spacing:0;
+	line-height:14px;
+	text-align:left;
+}
+.authorCode .pay .alipayCode,.wxpayCode{
+	width:150px;
+	height:150px;
+	background:#333;
+}
+.authorCode .instructions{
+	font-family:PingFangSC-Light;
+	font-size:12px;
+	color:#999999;
+	letter-spacing:0;
+	line-height:12px;
+	text-align:center;
+	margin:0 auto;
+}
+.ts_iden {
+	position:absolute;
+	width:48px;
+	height:22px;
+	line-height:22px;
+	display:inline-block;
+	top:10px;
+	left:20px;
+	font-size:14px;
+	font-weight:600;
+	text-align:center;
+	background:transparent;
+	background-color:rgba(255,0,0,0.2);
+	color:#fff;
+	border-radius:10px;
+}
+.hideTsInfo {
+	display:inline-block;
+	width:55px;
+	height:27px;
+	line-height:30px;
+	position:fixed;
+	top:33px;
+	right:218px;
+	border-radius:5px;
+	text-align:center;
+	cursor:pointer;
+	background:url(http://img.ssyer.com/lib/comments.png) no-repeat center;
+}
+.comment{font-size:20px;
+	width:100%;
+	margin:0 auto;
+	overflow: hidden;
+	padding-left:60px;
+	text-overflow: ellipsis;
+	word-break:break-word;line-height:26px;}
+#footer{position:fixed;width:100%;overflow-y: scroll;z-index:-1;bottom:70px;max-height:calc(90vh - 150px);}
+.scroll_bg{z-index:4;position:fixed;width:100%;overflow-y:scroll;top:0;bottom:0;}
+.headImg{width:45px;height:45px;border-radius: 50%;float:left}
+.headName{float:left}
+.commentator{font:14px/26px "";color:#333;margin-left: 15px;}
+#commentant{position:relative;width:780px;left:50%;margin-left:-395px;}
+.readingtime{color: #d1d1d1;margin-left: 15px;}
+.li1{background: #f8f8f8;margin-bottom: 30px;border-radius:8px;}
+.div1{padding: 25px 0 0 30px;zoom:1;}
+.div1:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.div2{    margin-top: 10px;
+    padding: 0px 30px 16px;
+    width: 100%;}
+.unapprove{display: inline-block;width: 55px;height: 27px;line-height: 30px;position: fixed;top: 25px;right: 285px; border-radius: 5px;text-align: center;cursor: pointer;}
+.headImgs{position:fixed;bottom:70px;left:50%;margin-left:-300px;}
+.headImgs .headUl {
+    width: 600px;
+    height: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    pointer-events: none;
+}
+.headImgs .headUl .headLi{
+	width:45px;
+	height:45px;
+	margin:0 5px;
+	/*background:url(../img/head1.jpg) no-repeat center center;*/
+	/*background-size: 100% 100%;*/
+	border:2px solid #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	pointer-events: auto;
+}
+.badge{
+		background:rgba(235,104,119,0.80);
+		border-radius:10px;
+		width:48px;
+		height:18px;
+		position:absolute;
+		left:96%;
+		right:0;
+		top:0;
+		bottom:0.3vh;
+		margin:auto;
+		font-family:PingFangSC-Regular;
+		font-size:18px;
+		color:#ffffff;
+		line-height:18px;
+		text-align:center;
+		display:none;
+	}
+.discuss{position:fixed;bottom:2px;width:100%;vertical-align:middle;z-index:10000;display:none;background:#f8f8f8;padding: 10px 0;}	
+.bottom_discuss{width:610px;overflow-y: hidden; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 17px; line-height: 30px; display: inline-block;vertical-align:middle;height:30px;
+        -webkit-appearance: textarea;
+    background-color: white;
+    border-radius:16px;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    resize:none;
+    border:none;
+    flex-direction: column;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 2px;outline:none}		
+ .discuss_bottom{position:relative;left:50%;margin-left:-395px;width:780px;}		
+#release2{
+    font-size:17px;
+	color:#000;
+	border:0;
+	display:inline-block;
+	background:#edece9;
+	cursor: pointer;
+	pointer-events: auto;
+    border-radius:28px;
+    width:67px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    outline:none;vertical-align:middle;margin-left:15px;
+    }	
+.toTop{
+	width:67px;
+    height:30px;
+	margin-left:20px;
+	color:#000;
+	font-size:17px;
+	display:inline-block;
+	background:#edece9;
+	vertical-align:middle;
+	border-radius: 28px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}   	

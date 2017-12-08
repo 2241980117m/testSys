@@ -1,0 +1,39 @@
+		pre{
+		    font-size: 1.8rem;
+		    line-height: 2rem;
+		    margin-left: 10%;
+    		margin-top: 2vh;
+    		width: 86%;
+		}
+		.logs{
+			overflow: auto;
+		}
+		.answer,.empty{
+			float: left;
+			width: 40%;
+		}
+		
+		.answer .sign,.empty .sign{
+			margin: 0;
+			float: left;
+			margin-top: 0.6vh;
+		}
+		.answer span,.empty span{
+			margin-left: 1vw;
+		}
+		.answer .sign{
+			background-color: #FF9800;
+		}
+		.body_1 label{
+			text-align: left;
+			line-height: 32px;
+		}
+		.select label{
+			font-size: 1.2vw;
+		}
+		.select ul{
+			margin-top: 2vh;
+		}
+		.select ul li label{
+			font-size: 1vw;
+		}

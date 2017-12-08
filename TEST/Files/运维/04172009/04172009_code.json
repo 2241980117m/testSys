@@ -1,0 +1,1 @@
+{"code":[{"num":1,"id":"40","question":"有1分，2分，5分三种硬币各50个，现在要凑够100分，求解所有可能的硬币组合。","answer":"#include<stdio.h>\nint main()\n{int 0<=x<=50;\nint 0<=y<=50;\nint 0<=z<=50;\n"}]}

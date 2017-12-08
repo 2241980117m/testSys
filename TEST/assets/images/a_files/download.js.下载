@@ -1,0 +1,28 @@
+$(document).ready(function(){
+    var bg_w=$(".bg").width()+"px";
+    var bg_h=$(".bg").height()+"px";
+    //var bottom_h=$(".downchange").height()-$(".downchange .downchange_top").height()+"px";
+    $(".bg_1").css({width:bg_w,height:bg_h});
+    $(".downchange .downchange_bottom").css("height","100px");
+    $(".chang:eq(0)").css({border:"1px solid #009999",color:"#009999"});
+    localStorage.setItem("id","0");
+});
+/*close旋转*/
+//$(".close").hover(function(){
+//   $(this).css({"animation":"change 1s linear"})
+//},function(){
+//     $(this).css({"animation":"change_1 1s linear"})
+//})
+
+/*选择大小*/
+$(".chang").each(function(){
+    $(this).click(function(){
+        $(this).css({border:"1px solid #009999",color:"#009999"});
+        $(this).siblings().css({border:"1px solid #999999",color:"#000000"});
+        $(".chang_1").css({border:"0"});
+        var a=$(this).index();
+        localStorage.setItem("id", a);
+        //console.log(localStorage.getItem("id"))
+})
+})
+

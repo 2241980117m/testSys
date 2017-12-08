@@ -1,0 +1,264 @@
+html,body{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+.page-1{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   overflow: hidden;
+}
+.bg {
+    width: 110%;
+    height: 83%;
+    /* background: blue; */
+    background: linear-gradient(to right,rgba(250, 137, 0, 0.82),rgba(255, 193, 7, 0.48));
+    position: absolute;
+    top: -28vh;
+    left: -8%;
+    transform: rotate(-6deg);
+    z-index: -1;
+}
+.content {
+    width: 40%;
+    height: 100px;
+    padding-top: 16vh;
+    margin-left: 4vw;
+}
+.content p {
+    color: white;
+    text-indent: 2em;
+    font-size: 1.2vw;
+}
+.link {
+    margin-top: 4vh;
+}
+a.btn.btn-info {
+    display: inline-block;
+    width: 30%;
+    padding: 1vh 0;
+    font-size: 1.8rem;
+}
+a.btn.btn-warning {
+    display: inline-block;
+    width: 32%;
+    padding: 1vh 0;
+    background: none;
+    margin-left: 5vw;
+    font-size: 1.8rem;
+    border: 2px solid;
+}
+.part-1 {
+    transform-style: preserve-3d;
+    perspective: 400px;
+    position: absolute;
+    top: -15vh;
+    left: 92vw;
+}
+img.img0 {
+    width: 54vw;
+    transform: rotateX(5deg) rotateY(1deg) rotateZ(-21deg);
+    /* margin-top: 21vh; */
+    border-radius: 6% 6%;
+}
+.part-2 {
+    transform-style: preserve-3d;
+    perspective: 400px;
+    position: absolute;
+    left: 55vw;
+    top: 30vh;
+}
+.part-3 {
+    position: absolute;
+    left: 67vw;
+    top: 81vh;
+    transform-style: preserve-3d;
+    perspective: 200px;
+}
+img.img1 {
+    vertical-align: middle;
+    width: 58%;
+    left: 10vw;
+    border-radius: 6% 6%;
+    opacity: 0.9;
+    transform: rotateX(2deg) rotateY(2deg) rotateZ(-15deg);
+}
+.part-3 img {
+    width: 82%;
+    transform: rotateX(10deg) rotateY(-10deg) rotateZ(3deg);
+}
+.page-2{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+   /* background: rgb(239, 232, 221); */
+}
+.info_content {
+    padding: 3vh 10vw 1vh 10vh;
+    /* border: 1px solid; */
+    height: 75.2vh;
+}
+.info {
+    float: left;
+    width: 67%;
+    padding-right: 10%;
+    margin-top: -2vh;
+}
+.item span {
+    color: white;
+    font-size: 1.2vw;
+}
+.item p {
+     margin-top: 0.5vh;
+     font-size: 1vw;
+}
+.info p{
+	font-size: 1vw;
+}
+.form {
+    width: 23%;
+    height: 67vh;
+    border: 2px solid #bfb79d;
+    float: left;
+    margin-left: 10%;
+    border-radius: 11% 11%;
+    padding: 7vh 1.8vw;
+    box-shadow: 2px 1px 1px 1px #cac0a2;
+}
+.form input{
+	padding-left: 1px;
+}
+.col {
+    margin-top: 5vh;
+}
+.btn-block{
+	margin-top: 8vh;
+}
+.form_header{
+	text-align: center;
+}
+.form_header img {
+    background-image: url(../images/logo1.png);
+    width: 21%;
+    height: 6vh;
+    border: 0;
+    outline: 0;
+    background-repeat: no-repeat;
+    background-size: 390% 100%;
+}
+.form_header span {
+    color: #55b7dc;
+    font-size: 31px;
+    font-weight: 100;
+    font-family: serif;
+}
+.form_header img{
+	margin-top: -2vh;
+}
+.search span:hover,.con span:hover,.contact span:hover,.contact p:hover,.contact label:hover{
+	cursor: pointer;
+	color: white;
+}
+input[type="text"]{
+	padding-left: 0.2vw;
+	width: 100%;
+	height: 4vh;
+}
+input[type="password"]{
+	padding-left: 0.2vw;
+	width: 100%;
+	height: 4vh;
+}
+.sign {
+    position: relative;
+    bottom: 0;
+    top: 37vh;
+    left: 9vw;
+}
+.sign span {
+    font-size: 2.5vw;
+    line-height: 5rem;
+    /* margin-bottom: 5vh; */
+    text-align: right;
+}
+.sign label {
+	font-size: 1vw;
+    /* text-align: right; */
+    margin-left: -5rem;
+}
+.footer {
+    padding: 1vh 2vw;
+}
+.footer img{
+	width: 10%;
+}
+.logo{
+	float: left;
+	width: 10%;
+}
+.search {
+    width: 9%;
+    height: auto;
+    padding-bottom: 1vh;
+    text-align: center;
+    float: left;
+    margin-left: 6%;
+    padding-top: 2vh;
+}
+.footer{
+	background: #000;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.footer img {
+    width: 100%;
+    height: 16vh;
+    margin-bottom: 0.5vh;
+}
+.con {
+    width: 9%;
+    float: left;
+    margin-left: 4%;
+    text-align: center;
+    padding-top: 2vh;
+}
+.footer_left {
+    float: right;
+    width: 45%;
+    /* border: 1px solid; */
+    padding-left: 1%;
+    margin-left: 1%;
+}
+.logo {
+    float: left;
+    width: 14%;
+    height: 10vh;
+    margin-left: 12%;
+    /* border: 1px solid blue; */
+    margin-top: 8vh;
+}
+.logo img {
+    height: 6vh;
+}
+.href {
+    width: 15%;
+    margin-top: 3vh;
+    float: left;
+    margin-left: 8%;
+}
+.contact {
+    padding-top: 2vh;
+    padding-left: 24%;
+}
+.contact_us{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+}
+

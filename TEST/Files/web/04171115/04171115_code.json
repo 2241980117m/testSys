@@ -1,0 +1,1 @@
+{"code":[{"num":1,"id":"40","question":"有1分，2分，5分三种硬币各50个，现在要凑够100分，求解所有可能的硬币组合。","answer":"#include<stdio.h>\nvoid main()\n{  int x=100,a,b,c;\n   scanf(\"%d%d%d\",&a,&b,&c);\n   if(x=1*a+2*b+5*c)\n       printf(\"%d%d%d\",a,b,c）；\n   else\n       printf(\"此组合不能凑够100分“）；\n}\n   \n ","idea":"输入1分，2分，5分的个数，当其之和能构成100分，输出其组合，不能时，输出此组合不能凑够100分。"}]}

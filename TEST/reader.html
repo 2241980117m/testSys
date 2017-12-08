@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>批卷界面</title>
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/reader.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="header row">
+		<div class="item">
+			<span class="glyphicon glyphicon-bookmark"></span>
+			<label for="">当前试卷的姓名:</label>
+			<span class="name"></span>
+		</div>
+		<div class="item">
+			<span class="glyphicon glyphicon-eye-open"></span>
+			<label for="">学号:</label>
+			<span class="id"></span>
+		</div>
+		<div class="item">
+			<span class="glyphicon glyphicon-user"></span>
+			<label for="">用户名:</label>
+			<span class="user"></span>
+			<div class="classInfo">
+				<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+				<label for="" >组别:</label>
+				<span class="class"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="fill">
+			<h3>填空题</h3>
+			<div class="fill_content"></div>
+		</div>
+		<div class="instrest">
+			<h3>脑洞题</h3>
+			<div class="instrest_content"></div>
+		</div>
+		<div class="code">
+			<h3>编程题</h3>
+			<div class="code_content"></div>
+		</div>
+		<div class="add">
+			<h3>附加题</h3>
+			<div class="add_content"></div>
+		</div>
+		<div class="evaluation">
+			<label>评价：</label>
+			<textarea name="" id="" cols="30" rows="10" class="evaluation_content"></textarea>
+		</div>
+		<button class="btn btn-warning submit">提交</button>
+	</div>
+</div>
+	<script src="./assets/js/jquery-3.2.1.min.js"></script>
+	
+	<script src="./assets/js/reader.js"></script>
+	<script src="./assets/js/fillReader.js"></script>
+</body>
+</html>

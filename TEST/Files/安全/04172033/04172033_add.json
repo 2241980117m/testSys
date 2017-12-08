@@ -1,0 +1,1 @@
+{"add":[{"num":1,"id":"45","question":"不使用链表，数组，如何输入n个数，并逆序输出？（递归思考题）","code":"#include <stdio.h>\nint main(void)\n{\nint exchange(int x,int y)\n{\nint t;\nt=x;\ny=x;\nx=t;\n}\nint main(void)\n{\n}\n"},{"num":2,"id":"44","question":"int i=0;\nfor(i=0;i>=0;i++)\n;\n请问循环什么时候结束？","code":"当i==65535是结束"}]}

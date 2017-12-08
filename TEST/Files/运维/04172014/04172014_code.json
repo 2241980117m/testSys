@@ -1,0 +1,1 @@
+{"code":[{"num":1,"id":"40","question":"有1分，2分，5分三种硬币各50个，现在要凑够100分，求解所有可能的硬币组合。","answer":"#include<stdio.h>\n#inciude<math.h>\n{\nint z,y,x;\nfor(z=1；z<20;z++)\nfor(y=1;y<50;y++)\nfor(x=1;y<100,x++）\nif（x+2*y+5*z==100)\nprintf(\"%dx+%dy*2+%dz*5=100\\n\" x,y,z)\n}"}]}

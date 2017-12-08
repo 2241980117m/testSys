@@ -1,0 +1,277 @@
+/*弹出的登录注册公用样式*/
+.clear {
+	clear: both;
+}
+#s2_back {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 100000;
+	display: none;
+}
+.s2_log_reg_con {
+	width: 600px;
+	height: 520px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.9);
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left:-300px;
+	margin-top:-260px;
+}
+.s2_log_reg_con input::-webkit-input-placeholder {
+	color: #aaa;
+	font-size: 16px;
+}
+.s2_log_reg_con input::-moz-placeholder {
+	color: #aaa;
+	font-size: 16px;
+}
+.s2_log_reg_con input:-ms-input-placeholder {
+	color: #aaa;
+	font-size: 16px;
+}
+.log_reg_btn_div {
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.log_reg_btn_div span {
+	display: inline-block;
+}
+.log_reg_btn_div li {
+	list-style: none;
+	display: inline-block;
+	width: 30%;
+}
+#s2_login_tel,#s2_login_pass {
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 300px;
+	background: none;
+	font-size: 16px;
+	border-bottom: 1px solid #ddd;
+}
+.s2_log_reg_div2 {
+	margin-top: 30px;
+}
+#s2_log_reg_form_div {
+	padding-top: 30px;
+	margin-left: 20px;
+	display: none;
+}
+.rem_state {
+	font-size: 14px;
+}
+#login_btn_div {
+	font-size: 14px;
+}
+.s2_weixin_login {
+	font-size: 12px;
+}
+.s2_weixin_login_span {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+}
+#login_btn_div a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+#embed-submit {
+	width: 75px;
+    height: 35px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 18px;
+    border: 0px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+}
+#embed-submit:hover {
+	background-color: #33a3a4;
+}
+#weixin_login_btn {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+#remember_ipt {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.rem_state span {
+	vertical-align: middle;
+}
+/*注册表单样式*/
+#s2_log_reg_form_div2 {
+	margin-left: 20px;
+	display: none;
+}
+.form2_div {
+	margin-top: 25px;
+}
+.form2_div input{
+	border: none;
+	outline: none;
+	width: 300px;
+	height: 30px;
+	font-size: 16px;
+	background: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.form2_div input::-webkit-input-placeholder {
+	color: #aaa;
+	font-size: 16px;
+}
+.form2_div input::-moz-placeholder {
+	color: #aaa;
+	font-size: 16px;
+}
+.form2_div input:-ms-input-placeholder {
+	color: #aaa;
+	font-size: 16px;
+}
+.form2_div2,.form2_div3 {
+	font-size: 14px;
+}
+.form2_div4 {
+	font-size: 12px;
+}
+.form2_div3 a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+#agree_bieyang_a {
+	cursor:pointer;
+}
+#bnt_sms {
+	width: 20%;
+    display: inline-block;
+    border-radius: 18px;
+    height: 38px;
+	background: #099;
+	color: #fff;
+	font-size: 14px;
+}
+#s1_tel {
+	width: 185px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+
+#register_btn {
+	width: 75px;
+    height: 35px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 18px;
+    border: 0px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+}
+#register_btn:hover {
+	background-color: #099;
+}
+.form2_div2 {
+	margin-top: 20px;
+}
+.form2_div4 {
+	font-size: 12px;
+	margin-top: 25px;
+}
+.s2_weixin_register {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	margin-right: 20px;
+}
+.form2_div0 {
+	margin-top: 45px;
+}
+.login_nav,.reg_nav {
+	cursor: pointer;
+}
+
+.wx_reg_modal {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.8);
+		z-index: 111111;
+		display:none;
+}
+.wx_reg_modal_img {
+	width: 280px;
+	margin: 100px auto;
+}
+.wx_reg_modal_img_p1 {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.wx_reg_modal_img_p2,.wx_reg_modal_img_p3{
+	font-size: 14px;
+	color: #fff;
+	line-height: 25px;
+}
+.wx_reg_modal_img_div {
+	width: 280px;
+	height: 280px;
+
+}
+.wx_reg_modal_img_div img {
+	width: 100%;
+	height: 100%;
+}
+.wx_reg_modal_img_div2 {
+	background-color: #232323;
+	border-radius: 50px;
+	text-align: center;
+	margin-top: 20px;
+	height:50px;
+	
+}
+.s2_reg_err {
+	margin-left: 30px;
+	font-size:14px;
+	color:red;
+}
+.repass_a {
+	cursor: pointer;
+}
+.tologin {
+	cursor:pointer;
+}

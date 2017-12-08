@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>编程题</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/content.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/test2.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<style>
+		.content{
+			height: 76vh;
+		}
+		.submit,.next{
+			float: right;
+   		    margin-right: 1vw !important;
+   		    position: static;
+   		    margin-top: 8vh !important;
+   		    width: 13%;
+   		    display: block;
+
+		}
+		.pre{
+			left: 1vw !important;
+		}
+		.info{
+		    position: absolute;
+		    top: 42%;
+		    left: 30%;
+		    width: 40%;
+		    border: 1px solid;
+		}
+		.modal1 {
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    z-index: 100;
+		
+		}
+		.modal2{
+			opacity: 0.6;
+			background-color: rgb(40, 39, 39);
+		}
+		.modal_content {
+		    width: 60%;
+		    position: absolute;
+		    left: 17%;
+		    top: 38%;
+/* 		    box-shadow: 0px 0px 15px 5px #eee;
+		     */		    z-index: 1770;
+		    padding: 10px 20px;
+    		background: white;
+		}
+		.modal_body {
+		    padding-top: 2vh;
+		}
+		.modal_header {
+		    padding: 1vw 0rem;
+		    border-bottom: 1px solid;
+		}
+		.modal_footer {
+		    text-align: right;
+		    margin-top: 4vh;
+		}
+		a.try{
+			color: white;
+		}
+		.btn-default{
+			 margin-right: 1vw;
+		}
+		/* .next{
+			position: absolute;
+			bottom: 0;
+		}
+		.pre{
+			position: absolute;
+			bottom: 0;
+		} */
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="page-header">
+				   <img src="./assets/images/logo1.png" alt="">
+ 			       <h2>网协机考系统</h2>
+			</div>
+            <div class="col-md-9 col-sm-9 col-lg-9">
+               <div class="timer">
+               	    <label for="" class="title">编程题/</label>
+            		<span class="reset">距离结束时间</span>
+				    <span class="hour"></span>
+				    <label for="">:</label>
+					<span class="minute"></span>
+					<label for="">:</label>
+					<span class="second"></span>
+    	       </div>
+    	    <div class="content"></div>
+            </div>
+            <div class="col-md-3">
+            	<div class="row">
+            		<div>
+        	<h4 class="title">答题记录</h4>
+    	    <div class="logs">
+    	    	<div class="answer">
+    				<div class="sign"></div>
+    				<span>已答</span>
+    			</div>
+		    	<div class="empty">
+		    		<div class="sign"></div>
+		    		<span>未答</span>
+		    	</div>
+    	    </div>
+        </div>
+	           	<h4>编程题</h4>
+	           	<div class="log">
+	           		<p>1</p>
+	           			
+	           			<div class="sign"></div>
+	           			 		
+	           	</div>
+	           	<div class="log">
+	           		<p>2</p>
+	           			
+	           			<div class="sign"></div>
+	           			 		
+	           	</div>
+           </div>
+            </div>
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/ban.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/test2.js"></script>
+</body>
+</html>

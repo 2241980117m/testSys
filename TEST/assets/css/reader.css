@@ -1,0 +1,81 @@
+body {
+    padding: 1vw 1vh;
+}
+.header {
+    width: 100%;
+    overflow: auto;
+}
+.item {
+    margin-bottom: 1vw;
+    float: left;
+    margin-top: 1vh;
+    margin-right: 8vw;
+}
+.section {
+    margin-bottom: 3vh;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3vh;
+}
+.section span{
+    line-height: 30px;
+}
+span.question {
+    margin-left: 2vw;
+}
+.ideaItem {
+    width: 47%;
+    float: left;
+    margin-right: 3%;
+}
+.answerItem {
+    float: left;
+    width: 50%;
+}
+.correctItem {
+    clear: both;
+    display: block;
+}
+textarea.idea,textarea.answer{
+    resize: none;
+    display: block;
+    width: 100%;
+}
+textarea.correct {
+    display: block;
+    width: 100%;
+    resize: none;
+    height: auto;
+}
+input.grade {
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+.classInfo {
+    float: left;
+    margin-right: 10vw;
+}
+.evaluation{
+    height: 20vh;
+}
+.evaluation label {
+    font-size: 20px;
+}
+textarea.evaluation_content{
+    resize: none;
+    height: 15vh;
+    width: 85%;
+    vertical-align: top;
+}
+/* .submit{
+    width: 16vw;
+    float: right;
+} */
+.submit {
+    width: 28%;
+    /* float: right; */
+    margin: 0 auto !important;
+    text-align: center;
+    /* margin-left: 30%; */
+    position: relative;
+    left: 34%;
+}

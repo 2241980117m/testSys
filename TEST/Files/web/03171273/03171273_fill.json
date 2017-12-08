@@ -1,0 +1,1 @@
+{"fill":[{"num":1,"id":"8","question":"请问下面代码运行输出值？","code":"int main()\n{\nint a=0xff,b=0x00;\nint c;\nc=a^b>>2;\nprintf(\"c\");\n}\n "},{"num":2,"id":"2","question":"验证码的作用是什么？","answer":"验证是否为人为登录而不是机器"}]}

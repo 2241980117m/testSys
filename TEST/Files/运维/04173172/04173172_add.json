@@ -1,0 +1,1 @@
+{"add":[{"num":1,"id":"43","question":"你发现了c语言课本上的那些错误？（可以找我们拿书）","code":"x++\n++x\n都被认定为先加后算"},{"num":2,"id":"45","question":"不使用链表，数组，如何输入n个数，并逆序输出？（递归思考题）","code":"int a ,b , c, ...,n\nscanf(\"a=%d\",&n);\nscanf(\"b=%d\",&(n-1));\n.\n.\n\n.   \n\n\n\nprintf(\"%d %d %d        %d\",&a ,&b ,&c ,     ,&n);\nreturn0;\n\n以上语法错误，仅显示思路\n\n \n"}]}

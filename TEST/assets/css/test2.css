@@ -1,0 +1,64 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+textarea.code_content {
+    width: 100%;
+    height: 50vh;
+    resize: none;
+}
+textarea.idea_content {
+    width: 100%;
+    height: 50vh;
+    resize: none;
+}
+.col-md-9,.col-sm-9,.col-lg-9{
+	border: 0;
+}
+.next{
+	float: right;
+}
+.col-md-8{
+	padding-right: 2vw;
+    border-right: 1px solid #eee;
+}
+.col-md-4{
+	padding-left: 2vw;
+	padding-right: 0;
+}
+.question{
+	margin-bottom: 1vh;
+	margin-top: 2vh;
+}
+.content span{
+	font-size: 18px;
+}
+.next{
+	margin-top: 5.1vh;
+}
+span.num {
+    position: absolute;
+}
+label.question_content {
+    margin-left: 2vw;
+    word-break: break-all;
+    font-size: 16px;
+}
+.submit {
+    float: right;
+    margin-top: 5.5vh;
+    position: static;
+    width: 16%;
+    display: block;
+}
+button.btn.btn-info.pre {
+    margin-left: 2vw;
+}
+.result span {
+    font-size: 17px;
+    line-height: 30px;
+}
+.result {
+    margin-top: 1vh;
+}
